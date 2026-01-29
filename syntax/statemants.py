@@ -1,0 +1,1 @@
+print("Hi"); print("How its going?"); print("What is your name?"); print("nice to meet u"); print("bye")

@@ -1,0 +1,5 @@
+print("Hello,world")
+print("Hello,Kazakstan")
+print("Hello,friend")
+print("Hello,mom")
+print("Hello,dad")

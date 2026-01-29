@@ -1,0 +1,5 @@
+print(5)
+print(452)
+print(3 + 5)
+print(5 * 5)
+print('i am',19,'years old')
