@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+
+Practice6/file_handling/sample.txt
+Practice6/file_handling/only_once.txt
+Practice6/file_handling/to_copy.txt
+Practice6/file_handling/backup/
+Practice6/directory_management/demo_dirs/
+Practice6/directory_management/move_demo/
