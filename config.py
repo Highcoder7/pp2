@@ -1,0 +1,9 @@
+import os
+
+
+DB_HOST = "127.0.0.1"
+DB_PORT = 5432
+DB_NAME = "phonebook_db"
+DB_USER = "postgres"        
+DB_PASSWORD = "Qwerty07" 
+
