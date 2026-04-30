@@ -1,18 +1,31 @@
-# Practice 7 - Game Development with Pygame
+# Practice 7 - PhoneBook with PostgreSQL
 
-This repository contains three mini Pygame applications:
-- **Mickey's Clock**: Analog clock using Pygame rotation and graphics
-- **Music Player**: Plays audio files using keyboard controls
-- **Moving Ball**: Move a ball inside screen bounds collision tests
+A command-line phonebook application backed by a PostgreSQL database.
 
-## Installation
-Make sure you have pygame installed:
-```bash
-pip install -r requirements.txt
-```
+## Features
 
-## Running
-Navigate and run each game from its respective directory:
-- `python mickeys_clock/main.py`
-- `python music_player/main.py`
-- `python moving_ball/main.py`
+- Import contacts from CSV
+- Search contacts by name or phone number
+- Add and delete individual contacts
+- List all contacts
+
+## Setup
+
+1. Install dependencies:
+   ```bash
+   pip install psycopg2-binary
+   ```
+
+2. Configure your database connection in `config.py`.
+
+3. Run:
+   ```bash
+   python phonebook.py
+   ```
+
+## Files
+
+- `phonebook.py` — Main application logic (CRUD operations)
+- `connect.py` — PostgreSQL connection helper
+- `config.py` — Database credentials
+- `contacts.csv` — Sample contacts data

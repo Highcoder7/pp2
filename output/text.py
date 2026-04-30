@@ -1,5 +1,0 @@
-print("Hello KBTU!")
-print('I am learning Python language.')
-print("It is great!")
-print("i will do my best!", end=" ")
-print("I will get A.")
