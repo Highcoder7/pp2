@@ -1,0 +1,9 @@
+{
+  "sound": true,
+  "car_color": [
+    0,
+    100,
+    255
+  ],
+  "difficulty": "hard"
+}
