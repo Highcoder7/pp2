@@ -243,6 +243,7 @@ h3 {
   inset: 0;
   background: linear-gradient(120deg, transparent 40%, rgba(255, 255, 255, 0.42) 50%, transparent 60%);
   transform: translateX(-120%);
+  will-change: transform;
   animation: shaftShine 10s ease-in-out infinite;
 }
 
@@ -496,7 +497,7 @@ textarea:focus {
 @keyframes fadeUp {
   from {
     opacity: 0;
-    transform: translateY(18px);
+    transform: translateY(12px);
   }
 
   to {
