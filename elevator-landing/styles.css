@@ -446,7 +446,7 @@ textarea:focus {
 
 @media (max-width: 640px) {
   .container {
-    width: min(100% - 20px, 1120px);
+    width: min(1120px, calc(100% - 20px));
   }
 
   .topbar__inner {
