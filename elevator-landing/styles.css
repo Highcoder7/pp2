@@ -100,7 +100,7 @@ p {
 
 h1 {
   font-size: clamp(2.4rem, 5vw, 4.8rem);
-  line-height: 0.98;
+  line-height: 1.05;
   max-width: 11ch;
 }
 
@@ -370,7 +370,7 @@ h3 {
 .cta p {
   margin-top: 10px;
   max-width: 60ch;
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.92);
 }
 
 .contact-grid {
@@ -409,7 +409,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  outline: 2px solid rgba(43, 119, 197, 0.2);
+  outline: 2px solid rgba(43, 119, 197, 0.5);
   border-color: rgba(43, 119, 197, 0.45);
 }
 
