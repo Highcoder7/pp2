@@ -1,0 +1,30 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0F7FF"/>
+      <stop offset="1" stop-color="#D6E7FB"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="540" y1="180" x2="740" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A507D" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#6BB6FF" stop-opacity="0.56"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D9E6F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <rect x="150" y="220" width="900" height="530" rx="42" fill="url(#shine)"/>
+  <rect x="320" y="190" width="560" height="590" rx="44" fill="#E7F0FC"/>
+  <rect x="430" y="220" width="340" height="530" rx="28" fill="url(#glass)"/>
+  <rect x="470" y="250" width="260" height="460" rx="20" fill="#FFFFFF" fill-opacity="0.12"/>
+  <rect x="530" y="285" width="140" height="360" rx="18" fill="#FFFFFF" fill-opacity="0.14"/>
+  <rect x="0" y="760" width="1200" height="140" fill="#C8D9F2"/>
+  <rect x="200" y="790" width="120" height="40" rx="20" fill="#AFC3DF"/>
+  <rect x="330" y="778" width="150" height="52" rx="24" fill="#8FB4D9"/>
+  <rect x="720" y="780" width="180" height="48" rx="24" fill="#AFC3DF"/>
+  <rect x="510" y="610" width="180" height="84" rx="26" fill="#FFFFFF" fill-opacity="0.92"/>
+  <rect x="536" y="628" width="128" height="14" rx="7" fill="#C6D7EC"/>
+  <rect x="536" y="654" width="96" height="14" rx="7" fill="#C6D7EC"/>
+  <ellipse cx="600" cy="790" rx="250" ry="46" fill="#172238" fill-opacity="0.1"/>
+</svg>
