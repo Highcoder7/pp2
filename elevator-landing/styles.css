@@ -267,12 +267,12 @@ h3 {
 
 .lift-visual__car--top {
   top: 56px;
-  animation: liftUp 4.8s ease-in-out infinite alternate;
+  animation: liftDescend 4.8s ease-in-out infinite alternate;
 }
 
 .lift-visual__car--bottom {
   bottom: 56px;
-  animation: liftDown 4.8s ease-in-out infinite alternate;
+  animation: liftAscend 4.8s ease-in-out infinite alternate;
 }
 
 .hero__card-content {
@@ -505,7 +505,7 @@ textarea:focus {
   }
 }
 
-@keyframes liftUp {
+@keyframes liftDescend {
   from {
     transform: translateX(-50%) translateY(0);
   }
@@ -515,7 +515,7 @@ textarea:focus {
   }
 }
 
-@keyframes liftDown {
+@keyframes liftAscend {
   from {
     transform: translateX(-50%) translateY(0);
   }
