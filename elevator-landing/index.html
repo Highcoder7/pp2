@@ -170,20 +170,20 @@
 
     <section id="contacts" class="section">
       <div class="container contact-grid">
-        <form class="form">
+        <form class="form" action="mailto:sales@liftchina.ru" method="post" enctype="text/plain">
           <span class="eyebrow">Связаться с нами</span>
           <h2>Оставьте заявку</h2>
           <label>
             Имя
-            <input type="text" placeholder="Ваше имя" />
+            <input type="text" name="name" placeholder="Ваше имя" />
           </label>
           <label>
             Телефон
-            <input type="tel" placeholder="+7 (___) ___-__-__" />
+            <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" />
           </label>
           <label>
             Сообщение
-            <textarea rows="4" placeholder="Кратко опишите объект и задачу"></textarea>
+            <textarea rows="4" name="message" placeholder="Кратко опишите объект и задачу"></textarea>
           </label>
           <button class="btn" type="submit">Отправить</button>
         </form>

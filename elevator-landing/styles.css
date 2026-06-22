@@ -428,10 +428,13 @@ textarea:focus {
 
   .hero__grid,
   .cards,
-  .contact-grid,
-  .cta {
+  .contact-grid {
     grid-template-columns: 1fr;
+  }
+
+  .cta {
     display: grid;
+    grid-template-columns: 1fr;
   }
 
   .stats,
