@@ -243,7 +243,7 @@ h3 {
   inset: 0;
   background: linear-gradient(120deg, transparent 40%, rgba(255, 255, 255, 0.42) 50%, transparent 60%);
   transform: translateX(-120%);
-  animation: shaftShine 10s ease-in-out 2;
+  animation: shaftShine 10s ease-in-out infinite;
 }
 
 .lift-visual__car {
@@ -267,12 +267,12 @@ h3 {
 
 .lift-visual__car--top {
   top: 56px;
-  animation: liftDescend 6s ease-in-out 3 alternate both;
+  animation: liftDescend 6s ease-in-out infinite alternate;
 }
 
 .lift-visual__car--bottom {
   bottom: 56px;
-  animation: liftAscend 6s ease-in-out 3 alternate both;
+  animation: liftAscend 6s ease-in-out infinite alternate;
 }
 
 .hero__card-content {
@@ -590,6 +590,11 @@ textarea:focus {
   }
 
   .gallery-card {
+    animation: none;
+  }
+
+  .lift-visual__car,
+  .lift-visual__shaft::after {
     animation: none;
   }
 
